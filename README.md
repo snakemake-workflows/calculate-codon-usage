@@ -4,6 +4,7 @@
 [![GitHub actions status](https://github.com/snakemake-workflows/calculate-codon-usage/workflows/Tests/badge.svg?branch=main)](https://github.com/snakemake-workflows/calculate-codon-usage/actions?query=branch%3Amain+workflow%3ATests)
 [![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
 [![workflow catalog](https://img.shields.io/badge/Snakemake%20workflow%20catalog-darkgreen)](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/snakemake-workflows/calculate-codon-usage)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23768257.svg)](https://doi.org/10.5281/zenodo.23768257)
 
 A Snakemake workflow for calculating codon usage on coding sequences, including the RSCU (relative synonymous codon usage), currently restricted to the human genome (see the [`config/README.md`](config/README.md) for more details).
 
