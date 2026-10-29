@@ -5,7 +5,6 @@ description: main configuration schema for the workflow
 type: object
 
 properties:
-
   ref:
     type: object
     properties:
