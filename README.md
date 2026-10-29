@@ -51,10 +51,12 @@ The [profiles `README.md`](profiles/README.md) provides more details.
 
 ## Authors
 
-- Firstname Lastname
-  - Affiliation
-  - ORCID profile
-  - home page
+- David Lähnemann
+  - German Cancer Consortium (DKTK), partner site Essen-Düsseldorf, A partnership between DKFZ and University Hospital Essen
+  - https://orcid.org/0000-0002-9138-4112
+- Muhammad Murad
+  - German Cancer Consortium (DKTK), partner site Essen-Düsseldorf, A partnership between DKFZ and University Hospital Essen
+  - https://orcid.org/0000-0001-6030-5672
 
 ## References
 
