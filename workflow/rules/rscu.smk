@@ -32,8 +32,7 @@ rule get_canonical_transcript_ids_with_mane_select_annotation:
         ],
         filters={"transcript_is_canonical": True},  # optional: restrict output by using filters
     wrapper:
-        #"v9.19.1/bio/reference/ensembl-biomart-table"
-        "fix/biomart-increase-curl-timeout/bio/reference/ensembl-biomart-table"
+        "v9.19.1/bio/reference/ensembl-biomart-table"
 
 
 rule filter_canonical_to_mane_select:
