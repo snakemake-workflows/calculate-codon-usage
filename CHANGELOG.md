@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.0.0 (2026-10-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* initial version of full RSCU calculation workflow
+
+### Features
+
+* initial version of full RSCU calculation workflow ([7f9da41](https://github.com/snakemake-workflows/calculate-codon-usage/commit/7f9da41c81ae1f2dd0849f52b4974722e45782f0))
+
+
+### Bug Fixes
+
+* adjust config.schema.yaml and remove unneeded boilerplate code for sample sheet handling ([a492b36](https://github.com/snakemake-workflows/calculate-codon-usage/commit/a492b36bc660a59b09edf3245b5bd7eea0848fe1))
+* cleanup config/config.yaml ([34d37ff](https://github.com/snakemake-workflows/calculate-codon-usage/commit/34d37ffb68a72b090a5800ca70040ebcaa47c1a7))
+* make `{genome}` wildcard unambiguous with a clear `wildcard_constraints` entry ([01672cb](https://github.com/snakemake-workflows/calculate-codon-usage/commit/01672cb79c0a119638b47a4623a0fe90a6da4991))
+* revert to properly tagged wrapper ensembl-biomart-table ([5a4821e](https://github.com/snakemake-workflows/calculate-codon-usage/commit/5a4821ebc4aa9aae9820147c034b38b2f158c400))
+
 ## [1.3.0](https://github.com/snakemake-workflows/snakemake-workflow-template/compare/v1.2.0...v1.3.0) (2026-03-27)
 
 
