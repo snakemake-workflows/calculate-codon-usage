@@ -22,7 +22,6 @@ rule all:
     input:
         expand(
             "resources/genome.mane_select_cds.{genome}.{subset}.rscu.tsv",
-            genome = genome_version,
-            subset = ['all', 'all_ribosomal_subunit_genes'],
-        )
-
+            genome=genome_version,
+            subset=["all", "all_ribosomal_subunit_genes"],
+        ),
