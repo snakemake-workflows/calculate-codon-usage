@@ -1,7 +1,4 @@
 ref:
-  # Number of chromosomes to consider for calling.
-  # The first n entries of the FASTA will be considered.
-  n_chromosomes: 25
   # ensembl species name:
   # This species needs to be available for download via the Ensembl FTP site.
   # For a quick check, see the Ensembl species list:
