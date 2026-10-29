@@ -5,7 +5,7 @@
 [![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
 [![workflow catalog](https://img.shields.io/badge/Snakemake%20workflow%20catalog-darkgreen)](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/snakemake-workflows/calculate-codon-usage)
 
-A Snakemake workflow for calculating codon usage on coding sequences, including the RSCU (relative synonymous codon usage).
+A Snakemake workflow for calculating codon usage on coding sequences, including the RSCU (relative synonymous codon usage), currently restricted to the human genome (see the [`config/README.md`](config/README.md) for more details).
 
 - [Snakemake workflow: `calculate-codon-usage`](#snakemake-workflow-name)
   - [Usage](#usage)
@@ -60,4 +60,6 @@ The [profiles `README.md`](profiles/README.md) provides more details.
 
 ## References
 
-> Köster, J., Mölder, F., Jablonski, K. P., Letcher, B., Hall, M. B., Tomkins-Tinch, C. H., Sochat, V., Forster, J., Lee, S., Twardziok, S. O., Kanitz, A., Wilm, A., Holtgrewe, M., Rahmann, S., & Nahnsen, S. _Sustainable data analysis with Snakemake_. F1000Research, 10:33, 10, 33, **2021**. https://doi.org/10.12688/f1000research.29032.2.
+> Sharp, P. M.; Tuohy, T. M. F.; Mosurski, K. R. Codon Usage in Yeast: Cluster Analysis Clearly Differentiates Highly and Lowly Expressed Genes. Nucleic Acids Res 1986, 14 (13), 5125–5143. https://doi.org/10.1093/nar/14.13.5125
+
+> Köster, J., Mölder, F., Jablonski, K. P., Letcher, B., Hall, M. B., Tomkins-Tinch, C. H., Sochat, V., Forster, J., Lee, S., Twardziok, S. O., Kanitz, A., Wilm, A., Holtgrewe, M., Rahmann, S., & Nahnsen, S. Sustainable data analysis with Snakemake. F1000Research, 10:33, 10, 33, **2021**. https://doi.org/10.12688/f1000research.29032.2.
